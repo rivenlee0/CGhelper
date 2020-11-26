@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.main.fragment.ProfessionalFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:text="职业晋阶"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="选定职业取得见习生资格后，当专职技能等级或人物等级达到进阶标准，再完成该职业指定的晋阶任务，缴纳一定的费用便可以晋升该职业更高的阶级，来提高该职业等级的技能限制。"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:text="转职、回复游民"
+            android:textStyle="bold"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="当对原本职业不满意或想体验其它职业，可以选择付费转职，但会因新职业的技能上限或特殊限制，而降低或取消已经练成的技能，且名声及称号会降至开始阶段，因此转职前最好三思。当然，也可以通过完成 神之召唤 任务使用[转职保证书]来转职，这样就可以保留所有的原有职业技能等级和一半的声望，但转职后使用技能受职业上限影响，同样会无法使用。\n也可以到法兰城内城西的游民申请处(85,44)，不需任何花费便可以成为游民，不过所有的技能及阶段称号都会消失，要变为游民在去就其它职业的玩家更要三思。"
+            android:textSize="14sp" />
+    </LinearLayout>
+</layout>

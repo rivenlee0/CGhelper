@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_loading"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:translationZ="100dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/shape_solid_4a4a4a_4"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="15dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="15dp">
+
+        <ProgressBar
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:indeterminate="true"
+            android:indeterminateBehavior="repeat"
+            android:indeterminateDrawable="@drawable/loading_ani" />
+
+        <TextView
+            android:id="@+id/txt_load"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="加载中"
+            android:textColor="#FFFFFF"
+            android:visibility="gone" />
+    </LinearLayout>
+</FrameLayout>
