@@ -28,7 +28,7 @@ abstract class BaseActivity<VM: BaseViewModel, DB: ViewDataBinding> : BaseVmDbAc
         }
         dialog?.setContext(message)
         dialog?.let {
-            if (!it.isShowing) it.show()
+            if (it.isShowing) it.show()
         }
     }
 
